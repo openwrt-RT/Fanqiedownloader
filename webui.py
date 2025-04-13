@@ -438,7 +438,7 @@ def get_chapter_infos(book_id):
 
 def download_chapter(item_id):
     """下载章节内容并获取元数据"""
-    url = f"https://api.cenguigui.cn/api/tomato/content.php?item_id={item_id}"
+    url = f"https://fanqie.tutuxka.top/content.php?item_id={item_id}"
     
     try:
         response = requests.get(url, timeout=10)
